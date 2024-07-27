@@ -37,8 +37,12 @@ const gtSectra = localFont({
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "The New Humanitarian",
-  description: "An interactive codebase for digital storytelling.",
+  title: {
+    template: 'The New Humanitarian | %s',
+    default: 'The New Humanitarian | Interactive',
+  },
+  description: 'The official Next.js Learn Dashboard built with App Router.',
+  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
 };
 
 export default function RootLayout({
