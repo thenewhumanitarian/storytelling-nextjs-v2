@@ -26,12 +26,12 @@ p {
 
 /* Trying to fix 100vh on iOS */
 .h-intro {
-  min-height: calc(100vh - 8rem);
+  min-height: calc(100vh - 5rem);
 }
 
 @supports (height: 100svh) {
   .h-intro {
-    min-height: calc(100svh - 8rem);
+    min-height: calc(100svh - 5rem);
   }
 }
 
