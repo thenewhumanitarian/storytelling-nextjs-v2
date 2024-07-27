@@ -1,6 +1,6 @@
 const TextContainer = (({ children, classNames }: { children: React.ReactNode, classNames?: string }) => {
   return (
-    <div className={`relative max-w-xs sm:max-w-3xl mx-auto p-4 ${classNames}`}>
+    <div className={`relative max-w-sm sm:max-w-3xl mx-auto p-4 ${classNames}`}>
       {children}
     </div>
   )

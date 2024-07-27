@@ -12,7 +12,7 @@ const Author: React.FC<AuthorProps> = ({ name, biography, link, image }) => {
   return (
     <div className={'flex gap-3 justify-start items-center'}>
       {image &&
-        <div className={'relative w-20 h-20 rounded-full overflow-hidden'}>
+        <div className={'relative w-20 h-20 flex-none rounded-full overflow-hidden'}>
           <Image fill src={image} alt={`Portrait photo of ${name}.`} style={{ objectFit: 'cover' }} />
         </div>
       }
@@ -26,7 +26,7 @@ const Author: React.FC<AuthorProps> = ({ name, biography, link, image }) => {
             <p>{name}</p>
           )
         }
-        {biography && <p>{biography}</p>}
+        {biography && <p className={'text-sm'}>{biography}</p>}
       </div>
     </div>
   );

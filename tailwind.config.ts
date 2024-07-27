@@ -35,6 +35,10 @@ const config: Config = {
         text: '#63666a',
         transparent: 'transparent',
       },
+      fontSize: {
+        sm: ['16px', '24px'], // Font size and line height for text-sm
+        base: ['19px', '28px'], // Font size and line height for text-base
+      },
       fontFamily: {
         roboto: ['var(--font-roboto)'],
         sectra: ['var(--font-gt-sectra)'],

@@ -29,7 +29,7 @@ h2 {
 }
 
 p {
-  @apply font-roboto;
+  @apply font-roboto pt-1 pb-2 text-sm sm:text-base;
 }
 
 a {
