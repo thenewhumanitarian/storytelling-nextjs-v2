@@ -13,7 +13,9 @@ const FooterComponent = () => {
           </p>
           <p className="signup-cta__button">
             <a
-              href="/subscribe"
+              href="https://www.thenewhumanitarian.org/subscribe"
+              target="_blank"
+              rel="noopener noreferrer"
               className="button button--secondary button--large bg-zinc-900 hover:bg-zinc-950 px-11 py-4 text-white font-bold"
               title="Sign up to the TNH email newsletter"
             >
@@ -38,7 +40,9 @@ const FooterComponent = () => {
           </div>
           <p className="support-cta__button">
             <a
-              href="/membership"
+              href="https://www.thenewhumanitarian.org/membership"
+              target="_blank"
+              rel="noopener noreferrer"
               className="button button--primary button--large px-11 py-4 bg-burgundy-500 hover:bg-burgundy-600 text-white font-bold hover:bg-"
               title="Join The New Humanitarian"
             >
@@ -54,7 +58,9 @@ const FooterComponent = () => {
             <ul className="menu menu--top-level text-sm">
               <li className="menu__item menu__item--first about_us">
                 <a
-                  href="/content/about-us"
+                  href="https://www.thenewhumanitarian.org/content/about-us"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   title=""
                   className="menu__link"
                 >
@@ -63,7 +69,9 @@ const FooterComponent = () => {
               </li>
               <li className="menu__item privacy">
                 <a
-                  href="/legal/privacy-policy"
+                  href="https://www.thenewhumanitarian.org/legal/privacy-policy"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   title=""
                   className="menu__link"
                 >
@@ -72,7 +80,9 @@ const FooterComponent = () => {
               </li>
               <li className="menu__item syndication">
                 <a
-                  href="/legal/reprints"
+                  href="https://www.thenewhumanitarian.org/legal/reprints"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   title=""
                   className="menu__link"
                 >
@@ -81,7 +91,9 @@ const FooterComponent = () => {
               </li>
               <li className="menu__item contact_us">
                 <a
-                  href="/content/contact"
+                  href="https://www.thenewhumanitarian.org/content/contact"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   title=""
                   className="menu__link"
                 >
@@ -99,7 +111,7 @@ const FooterComponent = () => {
                   Careers
                 </a>
               </li>
-            </ul>
+            </ul >
             <ul className="sb">
               <li
                 className="sb__item sb__item--twitter"
@@ -132,10 +144,10 @@ const FooterComponent = () => {
                 </a>
               </li>
             </ul>
-          </nav>
-        </div>
+          </nav >
+        </div >
         <p className={'pb-8 sm:pb-6 text-zinc-600 text-sm'}>© All rights reserved 2024</p>
-      </footer>
+      </footer >
     </>
   )
 }

@@ -30,8 +30,7 @@
 @media only screen and (max-width: 640px) {
   .signup-cta {
     margin-top: 0 !important;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding: 4rem;
   }
 }
 
@@ -113,8 +112,7 @@
 
 @media only screen and (max-width: 640px) {
   .support-cta {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding: 4rem;
   }
 }
 
