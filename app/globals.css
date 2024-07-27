@@ -24,5 +24,16 @@ p {
   @apply font-roboto;
 }
 
+/* Trying to fix 100vh on iOS */
+.h-intro {
+  min-height: calc(100vh - 8rem);
+}
+
+@supports (height: 100svh) {
+  .h-intro {
+    min-height: calc(100svh - 8rem);
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
