@@ -31,6 +31,9 @@ const config: Config = {
         roboto: ['var(--font-roboto)'],
         sectra: ['var(--font-gt-sectra)'],
       },
+      height: {
+        intro: 'calc(var(--vh, 1vh) * 100 - 80px)',
+      }
     },
   },
   plugins: [],
