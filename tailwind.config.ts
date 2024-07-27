@@ -15,16 +15,16 @@ const config: Config = {
       },
       colors: {
         burgundy: {
-          50: '#fef2f3',   // Very light
-          100: '#f9d7db',  // Light
-          200: '#f2a7ae',  // Lighter
-          300: '#ea7681',  // Light-medium
-          400: '#e25058',  // Medium
-          500: '#9f3e52',  // Original burgundy
-          600: '#8d3549',  // Slightly darker
-          700: '#772c3d',  // Darker
-          800: '#602431',  // Even darker
-          900: '#491c25',  // Very dark
+          50: '#fef2f3',
+          100: '#f9d7db',
+          200: '#f2a7ae',
+          300: '#ea7681',
+          400: '#e25058',
+          500: '#9f3e52',
+          600: '#8d3549',
+          700: '#772c3d',
+          800: '#602431',
+          900: '#491c25',
         },
       },
       fontFamily: {
@@ -32,7 +32,8 @@ const config: Config = {
         sectra: ['var(--font-gt-sectra)'],
       },
       height: {
-        intro: 'calc(var(--vh, 1vh) * 100 - 80px)',
+        // intro: 'calc((var(--vh, 1vh) * 100) - 80px)',
+        intro: 'calc(100dvh - 80px)',
       }
     },
   },
